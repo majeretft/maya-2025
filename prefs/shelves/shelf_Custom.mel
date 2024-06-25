@@ -31,7 +31,7 @@ global proc shelf_Custom () {
         -image "freezeSelected.png" 
         -image1 "freezeSelected.png" 
         -style "iconOnly" 
-        -marginWidth 1
+        -marginWidth 0
         -marginHeight 1
         -command "FreezeTransformationsOptions" 
         -sourceType "mel" 
@@ -65,7 +65,7 @@ global proc shelf_Custom () {
         -image "FreezeTransform.png" 
         -image1 "FreezeTransform.png" 
         -style "iconOnly" 
-        -marginWidth 1
+        -marginWidth 0
         -marginHeight 1
         -command "ResetTransformationsOptions" 
         -sourceType "mel" 
@@ -112,7 +112,7 @@ global proc shelf_Custom () {
         -image "DeleteHistory.png" 
         -image1 "DeleteHistory.png" 
         -style "iconOnly" 
-        -marginWidth 1
+        -marginWidth 0
         -marginHeight 1
         -command "DeleteHistory" 
         -sourceType "mel" 
@@ -146,7 +146,7 @@ global proc shelf_Custom () {
         -image "deleteActive.png" 
         -image1 "deleteActive.png" 
         -style "iconOnly" 
-        -marginWidth 1
+        -marginWidth 0
         -marginHeight 1
         -command "DeleteAllHistory" 
         -sourceType "mel" 
@@ -180,7 +180,7 @@ global proc shelf_Custom () {
         -image "deleteCacheHistory.png" 
         -image1 "deleteCacheHistory.png" 
         -style "iconOnly" 
-        -marginWidth 1
+        -marginWidth 0
         -marginHeight 1
         -command "BakeAllNonDefHistory" 
         -sourceType "mel" 
@@ -227,7 +227,7 @@ global proc shelf_Custom () {
         -image "Relax.png" 
         -image1 "Relax.png" 
         -style "iconOnly" 
-        -marginWidth 1
+        -marginWidth 0
         -marginHeight 1
         -command "SetMeshRelaxTool" 
         -sourceType "mel" 
@@ -262,7 +262,7 @@ global proc shelf_Custom () {
         -image "Smooth.png" 
         -image1 "Smooth.png" 
         -style "iconOnly" 
-        -marginWidth 1
+        -marginWidth 0
         -marginHeight 1
         -command "SetMeshSmoothTool" 
         -sourceType "mel" 
@@ -310,7 +310,7 @@ global proc shelf_Custom () {
         -image "align.png" 
         -image1 "align.png" 
         -style "iconOnly" 
-        -marginWidth 1
+        -marginWidth 0
         -marginHeight 1
         -command "TogglePolyDisplayHardEdgesColor" 
         -sourceType "mel" 
@@ -344,7 +344,7 @@ global proc shelf_Custom () {
         -image "weld_NEX32.png" 
         -image1 "weld_NEX32.png" 
         -style "iconOnly" 
-        -marginWidth 1
+        -marginWidth 0
         -marginHeight 1
         -command "TogglePolyDisplaySoftEdges" 
         -sourceType "mel" 
@@ -378,7 +378,7 @@ global proc shelf_Custom () {
         -image "baseLattice.svg" 
         -image1 "baseLattice.svg" 
         -style "iconOnly" 
-        -marginWidth 1
+        -marginWidth 0
         -marginHeight 1
         -command "TogglePolyDisplayEdges" 
         -sourceType "mel" 
@@ -425,7 +425,7 @@ global proc shelf_Custom () {
         -image "C:/Users/Majer/OneDrive/Документы/maya/2020/scripts/maya_fspy/icon.png" 
         -image1 "C:/Users/Majer/OneDrive/Документы/maya/2020/scripts/maya_fspy/icon.png" 
         -style "iconOnly" 
-        -marginWidth 1
+        -marginWidth 0
         -marginHeight 1
         -command "import maya_fspy.ui as mfspy_ui\nmfspy_ui.maya_fspy_ui()" 
         -sourceType "python" 

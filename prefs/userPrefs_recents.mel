@@ -1,0 +1,33 @@
+//Maya Preference 2025 (Release 1)
+//
+//
+
+optionVar -version 3;
+
+// RecentFiles
+optionVar -cat "RecentFiles"
+ -sa "RecentFilesList"
+ -sva "RecentFilesList" "D:/Learn/Skillbox/3D for beginners/Pistol/scenes/M906_2_LP.ma"
+ -sva "RecentFilesList" "D:/Learn/Skillbox/3D for beginners/Pistol/scenes/M906_2_UV.mb"
+ -sva "RecentFilesList" "D:/Learn/Skillbox/GameBox_2024_spring_Team4/props/anubis_rigged.mb"
+ -sva "RecentFilesList" "D:/Learn/Skillbox/GameBox_2024_spring_Team4/bastet/bastet.mb"
+ -sva "RecentFilesList" "D:/Learn/Skillbox/GameBox_2024_spring_Team4/amat/amat.mb"
+ -sva "RecentFilesList" "D:/Learn/Skillbox/GameBox_2024_spring_Team4/props/props.mb"
+ -sva "RecentFilesList" "D:/Learn/Skillbox/GameBox_2024_spring_Team4/props/anubis.mb"
+ -sva "RecentFilesList" "D:/Learn/Skillbox/GameBox_2024_spring_Team4/props/anubis_statue.mb"
+ -sva "RecentFilesList" "D:/Learn/Skillbox/GameBox_2024_spring_Team4/props/goose.mb"
+ -sa "RecentFilesTypeList"
+ -sva "RecentFilesTypeList" "mayaAscii"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sa "RecentProjectsList"
+ -sva "RecentProjectsList" "D:/Learn/Skillbox/3D for beginners/Pistol"
+ -sva "RecentProjectsList" "D:/Learn/Skillbox/GameBox_2024_spring_Team4/props"
+ ;
+
