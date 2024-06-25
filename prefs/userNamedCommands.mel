@@ -1,0 +1,10 @@
+//Maya Preference 2025 (Release 1)
+//
+//
+
+nameCommand
+	-annotation "CenterPivotNameCommand"
+	-sourceType "mel"
+	-command ("CenterPivot")
+	CenterPivotNameCommand;
+
