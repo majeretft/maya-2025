@@ -49,7 +49,7 @@ optionVar -cat "Files/Projects"
  -sa "CustomFileDialogSidebarUrls"
  -sva "CustomFileDialogSidebarUrls" "file:"
  -sva "CustomFileDialogSidebarUrls" "C:/Users/Majer/Desktop"
- -sva "CustomFileDialogSidebarUrls" "C:/Users/Majer/OneDrive/Документы"
+ -sva "CustomFileDialogSidebarUrls" "C:/Users/Majer/OneDrive/пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"
  -sva "CustomFileDialogSidebarUrls" "C:/Users/Majer"
  -sv "FBX exportOptions" "v=0;"
  -sv "OBJexportOptions" "groups=1;ptgroups=1;materials=1;smoothing=1;normals=1"
@@ -179,8 +179,8 @@ optionVar -cat "Security"
  -sva "SafeModeBuiltInsSuspFunct" "print"
  -sa "SafeModeUserSetupHash"
  -sva "SafeModeUserSetupHash" "C:/Program Files/Autodesk/Maya2025/plug-ins/MASH/scripts/userSetup.py=2500306217159433322"
- -sva "SafeModeUserSetupHash" "C:/Users/Majer/OneDrive/Документы/maya/scripts/userSetup.py=12862237103796116594"
- -sva "SafeModeUserSetupHash" "C:/Users/Majer/OneDrive/Документы/maya//scripts/userSetup.py=12862237103796116594"
+ -sva "SafeModeUserSetupHash" "C:/Users/Majer/OneDrive/пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ/maya/scripts/userSetup.py=12862237103796116594"
+ -sva "SafeModeUserSetupHash" "C:/Users/Majer/OneDrive/пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ/maya//scripts/userSetup.py=12862237103796116594"
  ;
 
 // Selection
@@ -361,7 +361,7 @@ optionVar -cat "texSculptCacheContextObj Tool"
 
 // Uncategorized
 optionVar
- -sv "" "C:/Users/Majer/OneDrive/Документы/maya/projects/"
+ -sv "" "C:/Users/Majer/OneDrive/пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ/maya/projects/"
  -sa "CameraSetToolNamingTemplate"
  -sva "CameraSetToolNamingTemplate" "[u'Multi Stereo Rig', 'shot', [['Near', u'StereoCamera', 1], ['Mid', u'StereoCamera', 1], ['Far', u'StereoCamera', 1]], 'cameraSet']"
  -sv "ImportMergeOptionValue" "radioNamespaceOnFileName"
@@ -515,7 +515,8 @@ optionVar
  -iv "exportUnloadedReferences" 0
  -iv "exportUseNamespacesDuringFileIO" 1
  -iv "fcheckAsImageViewer" 1
- -iv "fileExecuteSN" 1
+ -sv "defaultFileOpenType" "Best Guess"
+ -iv "fileExecuteSN" 0
  -sv "fileImportRefLoadSetting" "default"
  -iv "fileImportReserveNamespaces" 0
  -sv "fileOpenRefLoadSetting" "default"
@@ -672,7 +673,7 @@ optionVar
  -sv "hyperShadeTab8Label" "Bake Sets"
  -sv "hyperShadeTab8Type" "scene"
  -iv "hyperShadeTab9" 1
- -sv "hyperShadeTab9CurrentDirectory" "C:/Users/Majer/OneDrive/Документы/maya/projects/"
+ -sv "hyperShadeTab9CurrentDirectory" "C:/Users/Majer/OneDrive/пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ/maya/projects/"
  -iv "hyperShadeTab9DirectoriesShown" 1
  -sv "hyperShadeTab9DirectoriesVisorName" "directories1VisorEd"
  -iv "hyperShadeTab9FilesShown" 1
@@ -681,7 +682,7 @@ optionVar
 
 optionVar
  -sv "hyperShadeTab9Label" "Projects"
- -sv "hyperShadeTab9RootDirectory" "C:/Users/Majer/OneDrive/Документы/maya/projects/"
+ -sv "hyperShadeTab9RootDirectory" "C:/Users/Majer/OneDrive/пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ/maya/projects/"
  -sv "hyperShadeTab9Type" "disk"
  -iv "hypershadeSwatchPauseButtonState" 1
  -iv "importKeepReferences" 1
