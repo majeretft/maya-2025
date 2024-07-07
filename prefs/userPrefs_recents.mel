@@ -1,0 +1,41 @@
+//Maya Preference 2025 (Release 1)
+//
+//
+
+optionVar -version 3;
+
+// RecentFiles
+optionVar -cat "RecentFiles"
+ -sa "RecentFilesList"
+ -sva "RecentFilesList" "D:/Learn_Temp/Skillbox Render from 0/3_Light setting (part 1)/light_setting_1.mb"
+ -sva "RecentFilesList" "D:/Learn_Temp/Skillbox Render from 0/3_Light setting (part 1)/light_setting_2.mb"
+ -sva "RecentFilesList" "D:/Learn_Temp/Skillbox Render from 0/3_Light setting (part 1)/light_setting_3.mb"
+ -sva "RecentFilesList" "D:/Learn_Temp/Skillbox Render from 0/3_Light setting (part 2)/classroom_v1.mb"
+ -sva "RecentFilesList" "D:/Learn_Temp/Skillbox Render from 0/3_Light setting (part 2)/light_linker_v1.mb"
+ -sva "RecentFilesList" "C:/Users/Majer/Google Drive/Skillbox Homework 2/scene/light_linker_v1.mb"
+ -sva "RecentFilesList" "D:/Learn_Temp/Skillbox Render from 0/5_Camera setup/task_1.mb"
+ -sva "RecentFilesList" "D:/Learn_Temp/Skillbox Render from 0/5_Camera setup/task_3 m5_MB_v01.mb"
+ -sva "RecentFilesList" "D:/Learn_Temp/Skillbox Render from 0/5_Camera setup/task_2.mb"
+ -sva "RecentFilesList" "C:/Users/Majer/Desktop/qqq.mb"
+ -sa "RecentFilesTypeList"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sva "RecentFilesTypeList" "mayaBinary"
+ -sa "RecentProjectsList"
+ -sva "RecentProjectsList" "D:/Learn/Skillbox/3D for beginners/Pistol"
+ -sva "RecentProjectsList" "D:/Learn_NB/Skillbox/GameBox_TestTask_2024-01-29"
+ -sva "RecentProjectsList" "D:/Learn_NB/Skillbox/Autodesk Maya 2.0 HW"
+ -sva "RecentProjectsList" "D:/Learn_NB/Skillbox/GameBox_2024_spring_Team4/props"
+ -sva "RecentProjectsList" "D:/Learn_Temp/Skillbox Render from 0/2_Render setup"
+ -sva "RecentProjectsList" "D:/Learn_Temp/Skillbox Render from 0/3_Light setting (part 1)"
+ -sva "RecentProjectsList" "D:/Learn_Temp/Skillbox Render from 0/3_Light setting (part 2)"
+ -sva "RecentProjectsList" "D:/Learn_Temp/Skillbox Render from 0/5_Camera setup"
+ ;
+
