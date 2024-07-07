@@ -6,7 +6,7 @@
         {
             "mainWindowPanel": false,
             "posX": 1920,
-            "posY": 31,
+            "posY": 23,
             "splitter": {
                 "orientation": "horizontal",
                 "children": [
@@ -139,7 +139,7 @@
                                     "tabWidget": {
                                         "selectedIndex": 0,
                                         "controlWidth": 40,
-                                        "controlHeight": 759,
+                                        "controlHeight": 795,
                                         "collapsed": false,
                                         "controls": [
                                             {
@@ -158,16 +158,16 @@
                                                 "widthProperty": "fixed",
                                                 "heightProperty": "free",
                                                 "controlWidth": 40,
-                                                "controlHeight": 759
+                                                "controlHeight": 795
                                             }
                                         ]
                                     }
                                 },
                                 {
                                     "tabWidget": {
-                                        "selectedIndex": 0,
-                                        "controlWidth": 261,
-                                        "controlHeight": 742,
+                                        "selectedIndex": 1,
+                                        "controlWidth": 400,
+                                        "controlHeight": 778,
                                         "collapsed": false,
                                         "controls": [
                                             {
@@ -186,9 +186,30 @@
                                                 "widthProperty": "preferred",
                                                 "heightProperty": "free",
                                                 "controlWidth": 261,
-                                                "controlHeight": 742,
+                                                "controlHeight": 778,
                                                 "initCallback": "outlinerStateCallback",
                                                 "stateString": "outlinerEditor -e -docTag \"isolOutln_fromSeln\" -showShapes 0 -showAssignedMaterials 0 -showTimeEditor 1 -showReferenceNodes 1 -showReferenceMembers 1 -showAttributes 0 -showConnected 0 -showAnimCurvesOnly 0 -showMuteInfo 0 -organizeByLayer 1 -organizeByClip 1 -showAnimLayerWeight 1 -autoExpandLayers 1 -autoExpand 0 -showDagOnly 1 -showAssets 1 -showContainedOnly 1 -showPublishedAsConnected 0 -showParentContainers 0 -showContainerContents 1 -ignoreDagHierarchy 0 -expandConnections 0 -showUpstreamCurves 1 -showUnitlessCurves 1 -showCompounds 1 -showLeafs 1 -showNumericAttrsOnly 0 -highlightActive 1 -autoSelectNewObjects 0 -doNotSelectNewObjects 0 -dropIsParent 1 -transmitFilters 0 -setFilter \"defaultSetFilter\" -showSetMembers 1 -allowMultiSelection 1 -alwaysToggleSelect 0 -directSelect 0 -isSet 0 -isSetMember 0 -showUfeItems 1 -displayMode \"DAG\" -expandObjects 0 -setsIgnoreFilters 1 -containersIgnoreFilters 0 -editAttrName 0 -showAttrValues 0 -highlightSecondary 0 -showUVAttrsOnly 0 -showTextureNodesOnly 0 -attrAlphaOrder \"default\" -animLayerFilterOptions \"allAffecting\" -sortOrder \"none\" -longNames 0 -niceNames 1 -showNamespace 1 -showPinIcons 0 -mapMotionTrails 0 -ignoreHiddenAttribute 0 -ignoreOutlinerColor 0 -renderFilterVisible 0 -renderFilterIndex 0 -selectionOrder \"chronological\" -expandAttribute 0 $editorName"
+                                            },
+                                            {
+                                                "objectName": "mayaUsdLayerEditor",
+                                                "title": "USD Layer Editor",
+                                                "uiScript": "mayaUsdLayerEditorWindow -reload",
+                                                "retain": false,
+                                                "deleteLater": false,
+                                                "loadImmediately": true,
+                                                "checkPlugins": false,
+                                                "actLikeMayaUIElement": false,
+                                                "layoutDirectionCallback": "",
+                                                "layoutDirection": "horizontal",
+                                                "tabDirection": 0,
+                                                "closed": false,
+                                                "widthProperty": "free",
+                                                "heightProperty": "free",
+                                                "controlWidth": 400,
+                                                "controlHeight": 778,
+                                                "requiredPlugins": [
+                                                    "mayaUsdPlugin"
+                                                ]
                                             }
                                         ]
                                     }
@@ -196,8 +217,8 @@
                                 {
                                     "tabWidget": {
                                         "selectedIndex": 0,
-                                        "controlWidth": 1120,
-                                        "controlHeight": 759,
+                                        "controlWidth": 985,
+                                        "controlHeight": 795,
                                         "collapsed": false,
                                         "controls": [
                                             {
@@ -215,8 +236,8 @@
                                                 "closed": false,
                                                 "widthProperty": "free",
                                                 "heightProperty": "free",
-                                                "controlWidth": 1120,
-                                                "controlHeight": 759,
+                                                "controlWidth": 985,
+                                                "controlHeight": 795,
                                                 "initCallback": "mainPaneStateCallback",
                                                 "stateString": "global string $gMainPane; paneLayout -edit -configuration single $gMainPane;if(`modelPanel -exists modelPanel4`){ modelPanel -edit -parent $gMainPane modelPanel4; paneLayout -edit -setPane modelPanel4 1 $gMainPane;}"
                                             }
@@ -225,9 +246,9 @@
                                 },
                                 {
                                     "tabWidget": {
-                                        "selectedIndex": 2,
-                                        "controlWidth": 460,
-                                        "controlHeight": 759,
+                                        "selectedIndex": 4,
+                                        "controlWidth": 456,
+                                        "controlHeight": 795,
                                         "collapsed": false,
                                         "controls": [
                                             {
@@ -285,7 +306,7 @@
                                                 "widthProperty": "preferred",
                                                 "heightProperty": "free",
                                                 "controlWidth": 460,
-                                                "controlHeight": 759
+                                                "controlHeight": 795
                                             },
                                             {
                                                 "objectName": "ToolSettings",
@@ -304,6 +325,24 @@
                                                 "heightProperty": "free",
                                                 "controlWidth": 460,
                                                 "controlHeight": 821
+                                            },
+                                            {
+                                                "objectName": "unifiedRenderGlobalsWindow",
+                                                "title": "Render Settings",
+                                                "uiScript": "initRenderSettingsWindow()",
+                                                "retain": true,
+                                                "deleteLater": true,
+                                                "loadImmediately": true,
+                                                "checkPlugins": true,
+                                                "actLikeMayaUIElement": false,
+                                                "layoutDirectionCallback": "",
+                                                "layoutDirection": "horizontal",
+                                                "tabDirection": 3,
+                                                "closed": false,
+                                                "widthProperty": "free",
+                                                "heightProperty": "free",
+                                                "controlWidth": 456,
+                                                "controlHeight": 795
                                             }
                                         ]
                                     }
@@ -315,7 +354,7 @@
                         "tabWidget": {
                             "selectedIndex": 0,
                             "controlWidth": 1920,
-                            "controlHeight": 48,
+                            "controlHeight": 50,
                             "collapsed": false,
                             "controls": [
                                 {
@@ -334,7 +373,7 @@
                                     "widthProperty": "free",
                                     "heightProperty": "free",
                                     "controlWidth": 1920,
-                                    "controlHeight": 48
+                                    "controlHeight": 50
                                 }
                             ]
                         }
@@ -343,7 +382,7 @@
                         "tabWidget": {
                             "selectedIndex": 0,
                             "controlWidth": 640,
-                            "controlHeight": 29,
+                            "controlHeight": 36,
                             "controls": [
                                 {
                                     "objectName": "RangeSlider",
@@ -367,57 +406,64 @@
                         }
                     },
                     {
-                        "tabWidget": {
-                            "selectedIndex": 0,
-                            "controlWidth": 1920,
-                            "controlHeight": 36,
-                            "collapsed": false,
-                            "controls": [
+                        "splitter": {
+                            "orientation": "horizontal",
+                            "children": [
                                 {
-                                    "objectName": "CommandLine",
-                                    "title": "Command Line",
-                                    "uiScript": "global string $gCommandLineForm; formLayout $gCommandLineForm;",
-                                    "retain": true,
-                                    "deleteLater": true,
-                                    "loadImmediately": true,
-                                    "checkPlugins": false,
-                                    "actLikeMayaUIElement": false,
-                                    "layoutDirectionCallback": "",
-                                    "layoutDirection": "horizontal",
-                                    "tabDirection": 0,
-                                    "closed": false,
-                                    "widthProperty": "free",
-                                    "heightProperty": "fixed",
-                                    "controlWidth": 1920,
-                                    "controlHeight": 36
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "tabWidget": {
-                            "selectedIndex": 0,
-                            "controlWidth": 1920,
-                            "controlHeight": 36,
-                            "collapsed": false,
-                            "controls": [
+                                    "tabWidget": {
+                                        "selectedIndex": 0,
+                                        "controlWidth": 537,
+                                        "controlHeight": 36,
+                                        "collapsed": false,
+                                        "controls": [
+                                            {
+                                                "objectName": "HelpLine",
+                                                "title": "Help Line",
+                                                "uiScript": "global string $gHelpLineForm; formLayout $gHelpLineForm;",
+                                                "retain": true,
+                                                "deleteLater": true,
+                                                "loadImmediately": true,
+                                                "checkPlugins": false,
+                                                "actLikeMayaUIElement": false,
+                                                "layoutDirectionCallback": "",
+                                                "layoutDirection": "horizontal",
+                                                "tabDirection": 0,
+                                                "closed": false,
+                                                "widthProperty": "free",
+                                                "heightProperty": "fixed",
+                                                "controlWidth": 537,
+                                                "controlHeight": 36
+                                            }
+                                        ]
+                                    }
+                                },
                                 {
-                                    "objectName": "HelpLine",
-                                    "title": "Help Line",
-                                    "uiScript": "global string $gHelpLineForm; formLayout $gHelpLineForm;",
-                                    "retain": true,
-                                    "deleteLater": true,
-                                    "loadImmediately": true,
-                                    "checkPlugins": false,
-                                    "actLikeMayaUIElement": false,
-                                    "layoutDirectionCallback": "",
-                                    "layoutDirection": "horizontal",
-                                    "tabDirection": 0,
-                                    "closed": false,
-                                    "widthProperty": "free",
-                                    "heightProperty": "fixed",
-                                    "controlWidth": 1920,
-                                    "controlHeight": 36
+                                    "tabWidget": {
+                                        "selectedIndex": 0,
+                                        "controlWidth": 1381,
+                                        "controlHeight": 36,
+                                        "collapsed": false,
+                                        "controls": [
+                                            {
+                                                "objectName": "CommandLine",
+                                                "title": "Command Line",
+                                                "uiScript": "global string $gCommandLineForm; formLayout $gCommandLineForm;",
+                                                "retain": true,
+                                                "deleteLater": true,
+                                                "loadImmediately": true,
+                                                "checkPlugins": false,
+                                                "actLikeMayaUIElement": false,
+                                                "layoutDirectionCallback": "",
+                                                "layoutDirection": "horizontal",
+                                                "tabDirection": 0,
+                                                "closed": false,
+                                                "widthProperty": "free",
+                                                "heightProperty": "fixed",
+                                                "controlWidth": 1381,
+                                                "controlHeight": 36
+                                            }
+                                        ]
+                                    }
                                 }
                             ]
                         }
@@ -428,6 +474,15 @@
     ],
     "closedControls": [
         {
+            "objectName": "scriptEditorPanel1Window",
+            "posX": 250,
+            "posY": 200,
+            "controlHeight": 658,
+            "controlWidth": 1223,
+            "widthProperty": "free",
+            "heightProperty": "free"
+        },
+        {
             "objectName": "hyperShadePanel1Window",
             "posX": 75,
             "posY": 75,
@@ -437,11 +492,11 @@
             "heightProperty": "free"
         },
         {
-            "objectName": "scriptEditorPanel1Window",
-            "posX": 250,
-            "posY": 200,
-            "controlHeight": 658,
-            "controlWidth": 1223,
+            "objectName": "ArnoldRenderView",
+            "posX": 695,
+            "posY": 297,
+            "controlHeight": 610,
+            "controlWidth": 960,
             "widthProperty": "free",
             "heightProperty": "free"
         }
